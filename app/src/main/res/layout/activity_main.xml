@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nitish.webtoapp.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IIITD - About Us"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:background="#ffffff"
+        android:textColor="@color/colorAccent"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="About IIITD"
+        android:textAllCaps="false"
+        android:onClick="getAboutUs"
+        android:background="#ffffff"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Contents!"
+        android:scrollbars="vertical"
+        android:textColor="#ffffff"
+        android:padding="10dp"
+       />
+</LinearLayout>
